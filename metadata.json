@@ -1,0 +1,6 @@
+{
+  "name": "Disha - Learning Level Visibility Platform",
+  "description": "Learning Level Visibility platform for Indian primary schools (Class 1-5), featuring Teaching at the Right Level (TaRL) grouping, offline-first assessments, multi-language support, student IQ assessments, and encrypted live classrooms.",
+  "requestFramePermissions": ["camera", "microphone"],
+  "majorCapabilities": ["MAJOR_CAPABILITY_SERVER_SIDE_GEMINI_API"]
+}

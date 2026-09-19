@@ -1,0 +1,24 @@
+@import "tailwindcss";
+
+@layer base {
+  body {
+    font-family: 'Nunito', system-ui, -apple-system, sans-serif;
+  }
+  h1, h2, h3, h4, .font-heading {
+    font-family: 'Baloo 2', 'Nunito', system-ui, sans-serif;
+  }
+}
+
+@media print {
+  .no-print {
+    display: none !important;
+  }
+  body {
+    background-color: white !important;
+    color: black !important;
+  }
+  .print-page {
+    box-shadow: none !important;
+    border: 1px solid #ddd !important;
+  }
+}
